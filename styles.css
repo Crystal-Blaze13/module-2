@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(188, 198, 195);
+}
+
+#heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:rgba(34, 2, 73, 0.72);
+    font-size: 40px;
+}
+
+#lab{
+    font-size:21px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    width:600px;
+    border:2px solid;
+    height:30px;
+    padding: 10px;
+    align-self: center;
+}
+input[type=text]:focus {
+    background-color: lightgrey;
+  }
+
+  #btn{
+    height:50px;
+    width:70px;
+    color: rgba(34, 2, 73, 0.72);
+  }
+.info1{
+    align-self: center;
+}
+div{
+    background-color: lightgrey;
+    width: 300px;
+    border: 4px solid black;
+    padding: 5%;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.pic{
+    width:280px;
+    height: 280px;
+    border:2px solid black;
+    box-shadow: inset;
+}
